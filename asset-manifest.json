@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/redux-app/static/css/main.71e0f38d.css",
+    "main.js": "/redux-app/static/js/main.b3c61bda.js",
+    "static/js/787.5e676c17.chunk.js": "/redux-app/static/js/787.5e676c17.chunk.js",
+    "static/media/spinner.svg": "/redux-app/static/media/spinner.f3362b6ead69c21601bc.svg",
+    "static/media/bubbles.svg": "/redux-app/static/media/bubbles.9edf28a2eb9b2eb0661d.svg",
+    "index.html": "/redux-app/index.html",
+    "static/media/heart.svg": "/redux-app/static/media/heart.5924ac230f509a093163.svg",
+    "static/media/download.svg": "/redux-app/static/media/download.e556a8aeb5c555fa8c26.svg",
+    "static/media/checkmark.svg": "/redux-app/static/media/checkmark.ad35ae4b7d6c4a9f1b50.svg",
+    "main.71e0f38d.css.map": "/redux-app/static/css/main.71e0f38d.css.map",
+    "main.b3c61bda.js.map": "/redux-app/static/js/main.b3c61bda.js.map",
+    "787.5e676c17.chunk.js.map": "/redux-app/static/js/787.5e676c17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71e0f38d.css",
+    "static/js/main.b3c61bda.js"
+  ]
+}
