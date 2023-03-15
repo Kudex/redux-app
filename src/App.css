@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--color-font);
+  background-image: linear-gradient(
+    350deg,
+    rgb(252,223,153, 0.2),
+    rgba(180,213,168, 0.2)
+  );
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+}
+/* my */
+.title {
+  text-align: center;
+}
+.form {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form_part_author,
+.form_part_content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  min-width: 800px;
+}
+.form_content textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+  resize: none;
+}
+.form_content textarea:focus {
+  outline-style: inherit;
+}
+
+.form_image input {
+  width: 400px;
+}
+
+.form_author select,
+.form_content textarea,
+.form_image input {
+  padding: 5px;
+  outline-style: inherit;
+
+  border: 1px solid;
+
+  border-radius: 5px;
+  border-color: var(--color-font);
+
+  background-color: inherit;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: var(--color-font);
+}
+
+.form_author select,
+.form_image input {
+  margin-left: 20px;
+}
